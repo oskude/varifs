@@ -1,0 +1,6 @@
+.*
+!.gitignore
+distro/**
+!distro
+!distro/archlinux
+!distro/archlinux/PKGBUILD

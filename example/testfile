@@ -1,0 +1,4 @@
+hello «foo»
+what = «color|start:1»
+ever = «color|hex2rgb»
+pass = «password»

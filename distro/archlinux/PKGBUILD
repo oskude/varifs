@@ -1,0 +1,16 @@
+pkgname=varifs
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Userspace variable resolving file system"
+arch=("any")
+url="https://github.com/oskude/varifs"
+license=("MIT")
+depends=(
+	"python"
+	"python-fuse"
+)
+
+package() {
+	cd ../../..
+	install -Dm755 varifs "$pkgdir/usr/bin/varifs"
+}
